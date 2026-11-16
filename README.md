@@ -78,8 +78,3 @@ Create a CSV with columns `url,label` (1 = phishing, 0 = legitimate) and run
 - Attackers adapt, so models need periodic retraining.
 - Try Gradient Boosting / XGBoost, character-level CNN on raw URLs, and SMOTE for imbalanced data.
 
-## 9. Likely viva questions
-- **Why scale features for SVM but not Random Forest?** SVM uses distances; trees split on thresholds.
-- **Why F1 instead of accuracy?** It balances precision and recall; missing a phishing URL (false negative) is costly.
-- **Why is HTTPS not enough?** Free certificates mean many phishing sites use HTTPS.
-- **What does the RBF kernel do?** Maps data to a higher-dimensional space to separate non-linear classes.
