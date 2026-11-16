@@ -1,0 +1,6 @@
+,Random Forest,SVM (RBF)
+accuracy,0.9739,0.9739
+precision,0.9782,0.9782
+recall,0.9717,0.9717
+f1,0.975,0.975
+roc_auc,0.9741,0.9742
